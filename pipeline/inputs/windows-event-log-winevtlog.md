@@ -14,7 +14,7 @@ The plugin supports the following configuration parameters:
 | Read\_Existing\_Events | Whether to read existing events from head or tailing events at last on subscribing. \(optional\) | False |
 | DB | Set the path to save the read offsets. \(optional\) |  |
 | String\_Inserts | Whether to include StringInserts in output records. \(optional\) | True  |
-| Render\_Event\_As\_XML | Whether to render system part of event as XML string or not. \(optional\) | False  |
+| Render\_Event\_As\_XML | Whether to render the event as XML string or not. \(optional\) | False  |
 | Use\_ANSI | Use ANSI encoding on eventlog messages. If you have issues receiving blank strings with old Windows versions (Server 2012 R2), setting this to True may solve the problem. \(optional\) | False  |
 | Event\_Query | Specify XML query for filtering events. | `*` |
 
